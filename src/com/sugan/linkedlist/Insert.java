@@ -1,13 +1,5 @@
 package com.sugan.linkedlist;
-class Node{
-    int data;
-    Node next;
 
-    Node(int x){
-        data = x;
-        next = null;
-    }
-}
 public class Insert {
         //Function to insert a node at the beginning of the linked list.
         Node insertAtBeginning(Node head, int x)
